@@ -28,7 +28,7 @@ local NFS = require("nativefs")
 to_big = to_big or function(a) return a end
 lenient_bignum = lenient_bignum or function(a) return a end
 
-local jokerIndexList = {1,2,3}
+local jokerIndexList = {1,2,4,3}
 
 local function load_jokers_folder()
     local mod_path = SMODS.current_mod.path
@@ -69,6 +69,13 @@ SMODS.ObjectType({
     key = "balakeys_myshi_jokers",
     cards = {
         ["j_balakeys_retrigger"] = true,
-        ["j_balakeys_trickster"] = true
+        ["j_balakeys_tricksterwip"] = true
+    },
+})
+
+SMODS.ObjectType({
+    key = "balakeys_balakeys_jokers",
+    cards = {
+        ["j_balakeys_savinggrace"] = true
     },
 })

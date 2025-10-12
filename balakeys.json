@@ -7,7 +7,7 @@
   "description": "Random bunch of stuff that I thought was pretty cool.",
   "prefix": "balakeys",
   "main_file": "main.lua",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "priority": 0,
   "badge_colour": "666665",
   "badge_text_colour": "FFFFFF",

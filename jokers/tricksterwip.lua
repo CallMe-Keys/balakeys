@@ -1,12 +1,13 @@
-SMODS.Joker{ --Trickster
-    key = "trickster",
+SMODS.Joker{ --Trickster WIP
+    key = "tricksterwip",
     config = {
         extra = {
+            destroyed = 0,
             standard = 0
         }
     },
     loc_txt = {
-        ['name'] = 'Trickster',
+        ['name'] = 'Trickster WIP',
         ['text'] = {
             [1] = 'When a {C:attention}Playing Card{} is destroyed while',
             [2] = '{C:dark_edition}Illusion{} voucher is owned, gain {C:attention}Standard Tag{}'
