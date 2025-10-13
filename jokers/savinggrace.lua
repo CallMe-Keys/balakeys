@@ -19,7 +19,7 @@ SMODS.Joker{ --Saving Grace
         }
     },
     pos = {
-        x = 2,
+        x = 3,
         y = 0
     },
     display_size = {
@@ -27,7 +27,7 @@ SMODS.Joker{ --Saving Grace
         h = 95 * 1
     },
     cost = 4,
-    rarity = 1,
+    rarity = 2,
     blueprint_compat = true,
     eternal_compat = false,
     perishable_compat = true,

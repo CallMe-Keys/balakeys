@@ -21,7 +21,7 @@ SMODS.Joker{ --retrigger
         }
     },
     pos = {
-        x = 1,
+        x = 2,
         y = 0
     },
     display_size = {
