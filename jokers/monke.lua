@@ -16,7 +16,7 @@ SMODS.Joker{ --monke
         }
     },
     pos = {
-        x = 0,
+        x = 1,
         y = 0
     },
     display_size = {
@@ -24,7 +24,7 @@ SMODS.Joker{ --monke
         h = 95 * 1
     },
     cost = 6,
-    rarity = 3,
+    rarity = 2,
     blueprint_compat = true,
     eternal_compat = true,
     perishable_compat = true,

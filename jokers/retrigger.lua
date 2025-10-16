@@ -21,7 +21,7 @@ SMODS.Joker{ --retrigger
         }
     },
     pos = {
-        x = 2,
+        x = 3,
         y = 0
     },
     display_size = {
@@ -29,7 +29,7 @@ SMODS.Joker{ --retrigger
         h = 95 * 1
     },
     cost = 5,
-    rarity = 2,
+    rarity = 3,
     blueprint_compat = true,
     eternal_compat = true,
     perishable_compat = true,

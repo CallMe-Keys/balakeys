@@ -10,14 +10,15 @@ SMODS.Joker{ --Trickster WIP
         ['name'] = 'Trickster WIP',
         ['text'] = {
             [1] = 'When a {C:attention}Playing Card{} is destroyed while',
-            [2] = '{C:dark_edition}Illusion{} voucher is owned, gain {C:attention}Standard Tag{}'
+            [2] = '{C:dark_edition}Illusion{} voucher is owned, gain {C:attention}Standard Tag{}',
+            [3] = '*hanged man and immolate need fixed*'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
         }
     },
     pos = {
-        x = 4,
+        x = 6,
         y = 0
     },
     display_size = {

@@ -19,7 +19,7 @@ SMODS.Joker{ --Saving Grace
         }
     },
     pos = {
-        x = 3,
+        x = 4,
         y = 0
     },
     display_size = {
