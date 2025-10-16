@@ -11,7 +11,7 @@ SMODS.Joker{ --Oops! All Oops! All 6s
     loc_txt = {
         ['name'] = 'Oops! All Oops! All 6s',
         ['text'] = {
-            [1] = 'randomizes all chances from 0 to 10'
+            [1] = 'randomizes all chances from 0 to 12'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
