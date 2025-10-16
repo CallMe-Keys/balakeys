@@ -17,6 +17,6 @@ ai generated hand- +1 selection limit - does not give ascension or special hands
 
 the devil- free rerolls, but every reroll adds a playing card to your deck with every effect randomly selected
 
-oops all oops all 6s- all chances are randomized between 0 and 12
+oops all oops all 6s- all chances are randomized between 0 and 12 VERY EXPERIMENTAL
 
 vouchers are not ready but are still avaliable and coming! use banner mod to disable individual cards.
