@@ -7,11 +7,11 @@
   "description": "Random bunch of stuff that I thought was pretty cool.",
   "prefix": "balakeys",
   "main_file": "main.lua",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "priority": 0,
-  "badge_colour": "666665",
-  "badge_text_colour": "FFFFFF",
+  "badge_colour": "7734eb",
+  "badge_text_colour": "42bff5",
   "dependencies": [
-    "Steamodded (>=1.0.0~BETA-1016c)"
+    "Steamodded (>=1.0.0~ALPHA-1304a)"
   ]
 }

@@ -5,7 +5,7 @@ SMODS.Joker{ --Oops! All Oops! All 6s
     pos = {x = 2, y = 0},
     cost = 6,
     rarity = 3,
-    blueprint_compat = true,
+    blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,

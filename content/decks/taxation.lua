@@ -5,14 +5,14 @@ SMODS.Back{
     unlocked = true,
     no_collection = false,
     discovered = true, 
-    config={vouchers={'v_overstock_norm','v_overstock_plus'},
+    config={ reroll_cost_mod = 2, vouchers={'v_overstock_norm','v_overstock_plus'}, 
     },
     loc_vars = function(self, info_queue, card)
         return{ vars = {}}
     end,
     calculate = function(self, back, context)
         if context.reroll_shop then
-            G.GAME.current_round.reroll_cost = G.GAME.current_round.reroll_cost + 2
+            G.GAME.current_round.reroll_cost = G.GAME.current_round.reroll_cost + reroll_cost_mod
             return {}
         end
     end
