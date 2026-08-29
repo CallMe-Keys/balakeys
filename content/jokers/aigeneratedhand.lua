@@ -17,9 +17,11 @@ SMODS.Joker{ --AI Generated Hand WIP
 
     add_to_deck = function(self, card, from_debuff)
         SMODS.change_play_limit(1)
+        SMODS.change_discard_limit(1)
     end,
 
     remove_from_deck = function(self, card, from_debuff)
         SMODS.change_play_limit(-1)
+        SMODS.change_discard_limit(-1)
     end
 }
