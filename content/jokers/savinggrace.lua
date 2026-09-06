@@ -1,4 +1,4 @@
-SMODS.Joker{ --Saving Grace
+SMODS.Joker{
     key = "savinggrace",
     config = {extra = {no = 0, var1 = 0, explode = 0, y = 0}},
     pos = {x = 4, y = 0},
@@ -13,7 +13,7 @@ SMODS.Joker{ --Saving Grace
     pools = { ["balakeys_jokers"] = true },
 
     calculate = function(self, card, context)
-        if context.end_of_round and context.game_over and context.main_eval  and not context.blueprint then
+        if context.end_of_round and context.game_over and context.main_eval and not context.blueprint then
                 return {func = function()
                 local destructable_jokers = {}
                 for i, joker in ipairs(G.jokers.cards) do

@@ -138,7 +138,7 @@ local files = {
     "content/jokers/aigeneratedhand",
     "content/jokers/monke",
     "content/jokers/oopsididitagain",
-    "content/jokers/retrigger",
+    "content/jokers/oddjob",
     "content/jokers/savinggrace",
     "content/jokers/thedevil",
     "content/jokers/trickster",
@@ -158,7 +158,7 @@ SMODS.ObjectType({
         ["j_balakeys_savinggrace"] = true,
         ["j_balakeys_thedevil"] = true,
         ["j_balakeys_monke"] = true,
-        ["j_balakeys_retrigger"] = true,
+        ["j_balakeys_oddjob"] = true,
         ["j_balakeys_tricksterwip"] = true
     },
 })

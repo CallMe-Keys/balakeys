@@ -1,5 +1,5 @@
-SMODS.Joker{ --retrigger
-    key = "retrigger",
+SMODS.Joker{
+    key = "oddjob",
     config = {extra = {retriggers = 0, handsplayedthisround = 0, scale = 1, rotation = 1, onetime = 0}},
     pos = {x = 3, y = 0},
     cost = 5,

@@ -30,8 +30,8 @@ return {
                     "Randomizes all {C:green}probability{} from 0 to 12",
                 },
             },
-            j_balakeys_retrigger = {
-                name = "retrigger",
+            j_balakeys_oddjob = {
+                name = "Odd Job",
                 text = {
                     "When {C:attention}Boss Blind{} is defeated in {C:common}1{} hand,",
                     "add {C:attention}1{} retrigger to all scored {C:attention}odd cards{}",
@@ -42,7 +42,7 @@ return {
                 name = "Saving Grace",
                 text = {
                     "When {C:attention}Game Over{}, this Joker destroys itself,",
-                    "and a random joker, {C:attention}preventing loss{}",
+                    "and another random joker, {C:attention}preventing loss{}",
                 },
             },
             j_balakeys_thedevil = {
