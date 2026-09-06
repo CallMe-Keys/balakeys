@@ -145,7 +145,6 @@ local files = {
     "content/decks/taxation",
     "content/vouchers/money",
     "content/vouchers/tarot_dealer",
-    "functions/hooks",
 }
 for i, v in pairs(files) do
 	assert(SMODS.load_file(v..".lua"))()
@@ -163,3 +162,22 @@ SMODS.ObjectType({
         ["j_balakeys_tricksterwip"] = true
     },
 })
+
+
+-- TAXATION DECK HOOK
+local reroll_shop_ref = G.FUNCS.reroll_shop
+G.FUNCS.reroll_shop = function(e)
+    reroll_shop_ref(e)
+
+    -- apply scaling
+    if G.GAME and G.GAME.modifiers and G.GAME.modifiers.tax_reroll_scaling then
+        local extra_tax = G.GAME.modifiers.tax_reroll_scaling - 1
+        
+        G.GAME.current_round.reroll_cost_increase = (G.GAME.current_round.reroll_cost_increase or 0) + extra_tax
+        
+        -- e is the UI element for the reroll button, passed to recalculate the cost (cant call calculate_reroll_cost directly)
+        if G.FUNCS.calculate_reroll_cost then
+            G.FUNCS.calculate_reroll_cost(e)
+        end
+    end
+end

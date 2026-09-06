@@ -2,10 +2,10 @@ return {
     descriptions = {
     Back = {
             b_balakeys_taxdeck = {
-                name = "Taxation Deck WIP",
+                name = "Taxation Deck",
                 text = {
                     "Start with {C:attention}Overstock{} and {C:attention}Overstock Plus{} vouchers",
-                    "{C:green}Rerolls{} gain {C:money}$3 instead of {C:money}$1{}",
+                    "{C:green}Rerolls{} gain {C:money}$3{} instead of {C:money}$1{}",
                 },
             },
         },
